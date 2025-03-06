@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F96E4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblusername"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_orange_dark"
+        android:text="User Name: "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/lblusername"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50px"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Le Hoan"
+        android:textSize="20sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOk"
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/editUserName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="7dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Ok"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCancel"
+        android:layout_width="119dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/editUserName"
+        android:layout_marginLeft="380px"
+        android:layout_marginTop="2dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Cancel"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:cornerRadius="0dp" />
+
+</RelativeLayout>

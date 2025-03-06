@@ -1,0 +1,125 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#767272"
+    android:padding="16dp"
+    android:paddingTop="10px"
+    android:paddingBottom="20px">
+
+    <!-- Hàng 1: Tiêu đề -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20px">  <!-- Căn giữa toàn bộ hàng -->
+
+        <TextView
+            android:id="@+id/txtinput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#E7E96A"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="Input Catalog:"
+            android:textSize="24sp" />
+    </TableRow>
+
+    <!-- Hàng 2: Cate Id -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20px">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDD49C"
+            android:padding="8dp"
+            android:text="Cate Id:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editcateid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/editTextBackground"
+            android:padding="8dp" />
+    </TableRow>
+
+    <!-- Hàng 3: Cate Name -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20px">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FDD49C"
+            android:padding="8dp"
+            android:text="Cate Name:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editcatename"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/editTextBackground"
+            android:padding="8dp" />
+    </TableRow>
+
+    <!-- Hàng 4: Button -->
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btninsertcate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:background="@android:drawable/bottom_bar"
+            android:padding="8dp"
+            android:text="Delete"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:background="@android:drawable/bottom_bar"
+            android:padding="8dp"
+            android:text="Update"
+            android:textSize="20sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="20px"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/darker_gray"
+            android:padding="8dp"
+
+            android:text="Insert Cafe"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            app:cornerRadius="0dp" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HuynhLeHoan_22682941_Module2_Bai16</string>
+
+        <string-array name="list_items">
+            <item>Tí</item>
+            <item>Bin</item>
+            <item>Tèo</item>
+            <item>Bo</item>
+            <item>David</item>
+        </string-array>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HuynhLeHoan_22682941_Module2_Bai7</string>
+    <string-array name="font_list">
+        <item>Dejault</item>
+        <item>Times New Roman</item>
+        <item>Verdana</item>
+        <item>Comic Sans</item>
+    </string-array>
+
+</resources>
