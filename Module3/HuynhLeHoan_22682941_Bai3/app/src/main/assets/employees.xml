@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee id="101" title="Manager">
+        <name>Nguyễn Văn A</name>
+        <phone>0987654321</phone>
+    </employee>
+    <employee id="102" title="Developer">
+        <name>Trần Thị B</name>
+        <phone>0912345678</phone>
+    </employee>
+    <employee id="103" title="Developer">
+        <name>Lê Văn C</name>
+        <phone>0901122334</phone>
+    </employee>
+    <employee id="104" title="Designer">
+        <name>Phạm Thị D</name>
+        <phone>0933221100</phone>
+    </employee>
+    <employee id="105" title="Manager">
+        <name>Hoàng Văn E</name>
+        <phone>0977554433</phone>
+    </employee>
+</employees>
